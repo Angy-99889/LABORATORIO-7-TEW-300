@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo {
+  font-size: 24px;
+  color: red;
+  font-weight: bold;
+}
+
+.search-bar {
+  flex: 1;
+  max-width: 600px;
+  display: flex;
+  margin: 0 20px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 8px;
+}
+
+.search-bar button {
+  padding: 8px 16px;
+}
+
+.user-icons span {
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+}
+
+aside {
+  width: 200px;
+  background-color: #fff;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+  height: calc(100vh - 60px);
+}
+
+aside nav a {
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+.videos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.video-card {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.video-card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.video-card h3 {
+  margin: 10px 0 5px;
+}
+
+.video-card p {
+  color: #666;
+  font-size: 14px;
+}
+
+  
